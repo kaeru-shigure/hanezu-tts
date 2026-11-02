@@ -1,0 +1,76 @@
+{
+  "openjtalk/sys.dic": {
+    "bytes": 103305451,
+    "source": "https://cdn.jsdelivr.net/gh/tsukumijima/pyopenjtalk-plus@e7713f2d6d91f392f595df5e8998ff2b62c3b6f5/pyopenjtalk/dictionary/sys.dic"
+  },
+  "openjtalk/system.hzd.gz": {
+    "bytes": 10729780,
+    "source": "tools/compact_dictionary.py HZP1: pyopenjtalk-plus@e7713f2d6d91f392f595df5e8998ff2b62c3b6f5"
+  },
+  "openjtalk/unk.dic": {
+    "bytes": 5690,
+    "source": "https://cdn.jsdelivr.net/gh/tsukumijima/pyopenjtalk-plus@e7713f2d6d91f392f595df5e8998ff2b62c3b6f5/pyopenjtalk/dictionary/unk.dic"
+  },
+  "openjtalk/matrix.bin": {
+    "bytes": 3792262,
+    "source": "https://cdn.jsdelivr.net/gh/tsukumijima/pyopenjtalk-plus@e7713f2d6d91f392f595df5e8998ff2b62c3b6f5/pyopenjtalk/dictionary/matrix.bin"
+  },
+  "openjtalk/char.bin": {
+    "bytes": 262496,
+    "source": "https://cdn.jsdelivr.net/gh/tsukumijima/pyopenjtalk-plus@e7713f2d6d91f392f595df5e8998ff2b62c3b6f5/pyopenjtalk/dictionary/char.bin"
+  },
+  "unknown-kanji.json": {
+    "bytes": 305509,
+    "source": "tools/prepare_unknown_dictionary.py: sudachidict-core==20261015 minus readable OpenJTalk surfaces"
+  },
+  "unihan.json": {
+    "bytes": 797518,
+    "source": "pyopenjtalk-plus@e7713f2d6d91f392f595df5e8998ff2b62c3b6f5/_unihan_readings_map.py"
+  },
+  "ngram.json": {
+    "bytes": 11163531,
+    "source": "e2k==0.7.0/models/ngram.json.zip"
+  },
+  "kanalizer-dataset.jsonl": {
+    "bytes": 5570765,
+    "source": "https://huggingface.co/datasets/VOICEVOX/kanalizer-dataset/resolve/9920e8f5503e17a8b0647e0265e47923255df5dd/dataset/dataset.jsonl"
+  },
+  "tsqyomi/model.onnx": {
+    "bytes": 141194012,
+    "source": "https://huggingface.co/tsukumijima/tsqyomi-models/resolve/917a89d2c93420d1c43213c1e0232b25f7a6aa5f/v6/model.onnx"
+  },
+  "tsqyomi/tokenizer.json": {
+    "bytes": 6718495,
+    "source": "https://huggingface.co/tsukumijima/tsqyomi-models/resolve/917a89d2c93420d1c43213c1e0232b25f7a6aa5f/v6/tokenizer.json"
+  },
+  "tsqyomi/metadata.json": {
+    "bytes": 46404,
+    "source": "https://huggingface.co/tsukumijima/tsqyomi-models/resolve/917a89d2c93420d1c43213c1e0232b25f7a6aa5f/v6/metadata.json"
+  },
+  "kanalizer.safetensors": {
+    "bytes": 4449826,
+    "source": "https://huggingface.co/VOICEVOX/kanalizer-model/resolve/223ea6044503992673ea8d24cb9c39082dab7497/model/c2k.safetensors"
+  },
+  "config.json": {
+    "bytes": 4485,
+    "source": "https://huggingface.co/kaeru-shigure/hanezu-tts/resolve/419fe1f98ee69e3af5db4bf74f4a65c1fefb65fa/config.json"
+  },
+  "weight.safetensors": {
+    "bytes": 6964120,
+    "source": "https://huggingface.co/kaeru-shigure/hanezu-tts/resolve/419fe1f98ee69e3af5db4bf74f4a65c1fefb65fa/weight.safetensors"
+  },
+  "openjtalk-js.mjs": {
+    "bytes": 909253,
+    "source": "repository"
+  },
+  "runtime/hanezu_rt.wasm": {
+    "bytes": 349644,
+    "source": "hanezu-rt/dist (prebuilt)",
+    "sha256": "b392318e4fc6afb078247f90256b764d01a1a538fbde1fa88ff08829178ac5d4"
+  },
+  "runtime/hanezu_rt.relaxed.wasm": {
+    "bytes": 348280,
+    "source": "hanezu-rt/dist (prebuilt)",
+    "sha256": "56cab4984d85291e4128d5d5a08354e3a96fcd9b0ef9f889574ac4c24946c0d3"
+  }
+}

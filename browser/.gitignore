@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.yarn/install-state.gz
+# public/assets and public/licenses are required, versioned site content.
+# The OpenJTalk JS core and supplied hanezu-rt WASM are versioned runtime assets.
+public/runtime/*
+!public/runtime/.gitkeep
+!public/runtime/*-js.mjs
+!public/runtime/hanezu_rt.wasm
+!public/runtime/hanezu_rt.relaxed.wasm
+# Retired generated ONNX graphs are no longer deployed.
+public/onnx/
+__pycache__/
+/tools/*

@@ -1,0 +1,12 @@
+# Model files are downloaded on first start (or produced by tools/convert_lemon_release.py).
+models/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.wav
+/tools/
+.DS_Store
+*.zip

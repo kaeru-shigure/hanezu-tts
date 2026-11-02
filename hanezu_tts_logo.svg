@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  width="685"
+  height="304"
+  version="1.1"
+  viewBox="0 0 181.24 80.43"
+  xml:space="preserve"
+>
+  <defs id="definitions">
+    <filter id="watercolor" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+      <feTurbulence id="watercolor-noise" baseFrequency="0.08" numOctaves="3" result="noise" seed="7" type="fractalNoise" />
+      <feColorMatrix
+        id="watercolor-opacity-colors"
+        in="noise"
+        result="mask"
+        values="
+          0 0 0 0 0
+          0 0 0 0 0
+          0 0 0 0 0
+          0.21 0.72 0.07 0 0
+        " />
+      <feComponentTransfer id="watercolor-opacity-transfer" in="mask" result="opacityMask">
+        <feFuncA id="watercolor-opacity-levels" intercept="-0.1" slope="1.8" type="linear" />
+      </feComponentTransfer>
+      <feComposite id="watercolor-apply-mask" in="SourceGraphic" in2="opacityMask" operator="in" />
+    </filter>
+  </defs>
+  <g id="layer-01-white-base" inkscape:groupmode="layer" inkscape:label="01 下地・白シルエット">
+    <path
+      id="white-silhouette-underlay"
+      d="m 42.62 11.95 s -1.06 -2.58 -1.44 -2.84 c 0 0 5.34 0.08 5.59 3.77 h 1.23 s 0.59 -0.47 4.79 -0.64 c 0 0
+        8.85 0.53 13.35 7.44 s 4.75 14.25 7.09 15.73 l 0.19 3.7 s 1.48 1.3 2.65 1.6 c 0 0 -0.31 0.8 -3.02 0.62 l
+        -0.56 6.42 0.74 0.86 h -1.3 s -3.92 -0.65 -6.24 -7.2 l -33.65 11.59 -5.04 15.92 -3.85 5.4 s -5.46 -1.43
+        -6.04 -5.56 c 0 0 -0.48 3.07 1.27 4.98 0 0 -4.56 -1.22 -3.39 -7.79 l -2.7 -2.65 s -1.91 2.01 -0.74 5.4 c 0
+        0 -4.71 -2.01 -2.17 -7.2 l 3.91 -4.02 z"
+      fill="#fff" />
+  </g>
+  <g id="layer-02-background" transform="scale(0.26) scale(0.96) scale(1.06)" inkscape:groupmode="layer" inkscape:label="02 背景・淡い円形ウォッシュ">
+    <g id="background-fillshapes" fill="#fdeff5">
+      <path
+        id="circular-wash"
+        d="m 138.7 44.8 c -49.7 4.7 -97.8 42 -112.8 92.9 -14.4 49.3 10.4 109.1 52.6 132.2 l 145.4 -18.8 c 47.7 -36.1
+          69.1 -93.1 46.6 -138.1 -24.5 -43.8 -74.3 -71 -131.8 -68.2 z"
+        fill="#fdeff5" />
+    </g>
+  </g>
+  <g id="layer-03-character-fills" transform="scale(0.26) scale(0.96) scale(1.06)" inkscape:groupmode="layer" inkscape:label="03 人物・塗り">
+    <g id="character-fillshapes">
+      <g id="back-hair-kimono-and-neck-fills">
+        <path
+          id="hair-back-long"
+          d="m 102 171.4 c -8.7 23.2 -23.97 35.1 -42.22 42.09 -9.97 5.95 -14.58 8.96 -24.48 18.41 -6 11.5 -3.3 23.5 9.6
+            28.5 -9.6 -15.6 7.3 -30.2 27.4 -38.3 -18 19.8 -24.7 49.4 0 58.4 -3.5 -2.5 -7.27 -9.28 -8.04 -17.65 5.5 7.6
+            11.05 11.66 23.24 17.75 0 0 9.06 -12.54 14.43 -19.56 -11.72 -0.16 -20.31 -3.74 -19.46 -18.47 0.5 -8.8
+            32.89 -24.35 39.4 -43.62 l -4.11 -12.9 z"
+          fill="#f9cee4" filter="url(#watercolor)" />
+        <path
+          id="kimono-main"
+          d="m 165.2 208.7 c -14.2 7.5 -30.2 9.9 -38.9 20.4 l -38.8 52.65 181.86 -0.79 c -1.48 -3.36 -4.57 -14.08 -7.37
+            -21.09 -2.7 -6.77 -5.91 -14.34 -9.4 -20.97 -7.2 -14 -16.9 -15.3 -26.2 -23.9 l -11.4 -5.5 -12.5 29.4 -21.5
+            -29.4 z"
+          fill="#fff" />
+        <path
+          id="hair-main"
+          d="m 155.1 34.7 c 11 -1.3 20.8 5.6 22.5 15.1 l 6.6 -2.4 c 38.7 -5.3 70.5 19.6 80.6 58.8 3.6 14.5 6.9 25.8
+            15.8 29.3 -5.2 -0.1 -9.2 -2.7 -12.7 -6.3 2.2 13.8 10.1 22.6 20.8 24.9 -5.8 4.2 -18.6 1.6 -25.5 -3.9 1.1
+            13.8 7.1 28.4 15.3 35.1 -11.1 -0.9 -19.5 -7.8 -24.4 -16.3 0.1 16.1 -9.4 30.5 -22.7 37 4.7 -8.3 6 -16.6 6.3
+            -29.9 -2.9 17.8 -11 28.2 -24.6 35 6.6 -9.9 7.7 -18.1 7.4 -27.1 -2.2 9.7 -12.6 15.4 -21.9 17.8 l -15.8 5.7
+            -17.6 1.2 -11.2 -3.9 2.4 5.4 c -10.2 -1.8 -17.3 -5.8 -22.5 -17.2 1.2 10.5 4.8 17.3 10.6 22.3 -13.4 -2.3
+            -23.8 -13.7 -25.6 -27.6 l -10.8 -6 c -9.7 -9.8 -14.8 -26.4 -5.2 -49.8 -6.9 11.7 -14.7 21.4 -14.3 34.1 -7.5
+            -16.2 1.6 -39 12.8 -52.2 -8.9 7.3 -23.3 7.7 -30.9 2.5 11.8 -1.6 29.2 -10.1 38.1 -25.2 9.1 -15.8 33.7 -38.2
+            53.3 -36.6 0.9 -7.7 -1.5 -15 -6.8 -19.8 z"
+          fill="#f9cee4" filter="url(#watercolor)" />
+        <path
+          id="under-face-hair-shadow"
+          d="m 133 179.3 c -0.3 17.6 6.1 26.7 23.4 30.9 -3.5 -5.3 -2.7 -10.1 -1.5 -16 2 8 8.6 11.7 13.1 12.9 6 -4.9 10.3 -4.1 14.8 0.4 v -14 z"
+          fill="#d68d8e" />
+        <path
+          id="neck"
+          d="m 182.8 193.5 26.3 -11.9 c 0.23 2.93 -4.39 13.05 -9.28 19.2 3.76 -0.47 5.74 -0.73 8.26 -2.56 0.79 6.09 2.1
+            9.71 4.61 14.16 l -10.2 26.5 -21.4 -29.3 c 2.1 -4.6 1.9 -9.9 1.7 -16.1 z"
+          fill="#fbece1" />
+      </g>
+      <path id="neck-left-opening" d="m 154.9 194.2 c 2 7.6 8.5 11.4 13.1 12.8 l -12.1 5.6 0.5 -2.4 c -3.5 -5.3 -2.7 -10.1 -1.5 -16 z" fill="#e6d9ff" />
+      <g id="face-and-collar-fills">
+        <path
+          id="face"
+          d="m 134.9 135.1 -5.34 20.39 c 2.82 12.38 8.54 19.11 15.84 24.41 l -4.7 1.3 c 10.6 20.2 47.8 17.3 68.4 0.4 l
+            3 -22.2 c -4.5 6.3 -10 10.5 -16.8 11.5 9.5 -9.1 11.9 -18.4 10.2 -31.2 -17.4 -7.8 -31.7 -25.6 -35.3 -46.5
+            -2.2 14.8 0.9 35.4 5.6 46.8 0.7 4 2.3 7.3 3.9 9.1 -15.95 0.2 -22.03 -5.81 -30.01 -16.38 1.46 7.05 4.41
+            14.81 7.14 17.98 -12.3 -2.9 -15.61 -9.82 -18.43 -16.39 z"
+          fill="#fdf3ed" />
+        <path
+          id="right-under-hair-shadow"
+          d="m 220.5 184 c 0.3 9 -0.8 17.2 -7.4 27.1 -4.6 -1.6 -4.61 -6.46 -4.14 -13.06 0 0 9.34 -4.34 11.54 -14.04 z"
+          fill="#d68d8e" />
+        <path
+          id="collar-left-fill"
+          d="m 165.2 208.7 c 6.6 -6.9 12.3 -6.7 15.9 0.9 8.8 10.7 16 20.7 21.4 29.3 l -9.6 21.6 z"
+          fill="#f9cee4" filter="url(#watercolor)" />
+        <path
+          id="collar-right-fill"
+          d="m 181.09 281.31 c 16.4 -26.7 26.81 -49.11 33.41 -69.71 1.5 -4.5 3.6 -4.5 7 -1.4 l 5.4 5.6 c -5.9 23.5 -16.14 46.42 -26.94 65.42 z"
+          fill="#f5cee4" filter="url(#watercolor)" />
+      </g>
+    </g>
+  </g>
+  <g id="layer-04-hair-accents" transform="scale(0.26) scale(0.96) scale(1.06)" inkscape:groupmode="layer" inkscape:label="04 髪・アクセント線">
+    <g id="hair-accent-linework" fill="none" stroke="#ad5759" stroke-linecap="round" stroke-linejoin="round">
+      <path id="tuft-accent" d="m 162 57.4 c -0.4 3.7 -1.3 8 -2.2 11.8" stroke-width="2.9" />
+      <path id="crown-accent" d="m 174.1 65.8 c 9.6 5.8 15.9 16.3 19.7 25.5" stroke-width="3.2" />
+      <path id="left-face-accent" d="m 128.7 103.5 c -6.4 14.9 -6 27.9 -2.9 39.6" stroke-width="3.1" />
+      <path id="left-side-accent" d="m 110.5 129.9 c -1.71 4.94 -2.7 14.76 -1.66 22.88" stroke-width="2.6" />
+      <path id="right-bang-accent" d="m 200.3 109 c 2.1 4.8 3.2 9.4 3.8 14.8" stroke-width="2.8" />
+      <path id="tail-middle-accent" d="m 108.81 153.51 c 5.67 37.52 -2.01 44.95 -9 56.33" stroke-width="2.6" />
+      <path id="tail-left-accent" d="m 77.55 218.39 c -5.06 3.99 -7.29 5.36 -12.54 7.13" stroke-width="2.5" />
+      <path id="tail-lower-accent" d="m 68.81 244.55 c -1.46 2.69 -2.76 7.64 -3.06 10.87" stroke-width="3" />
+      <path id="front-hair-accent-right" d="m 150.07 132.61 c 4.42 7.21 15.9 17.55 28.38 15.78" stroke-width="3.1" />
+      <path id="front-hair-accent-left" d="m 135.64 126.03 c 2.59 7.75 6.03 20.65 20.16 23.82" stroke-width="3.1" />
+      <path id="back-hair-accent" d="m 118.12 188.16 c -2.16 5.52 -6.3 7.8 -11.08 9.93" stroke-width="2.6" />
+    </g>
+  </g>
+  <g id="layer-05-petals-and-flowers" transform="scale(0.26) scale(0.96) scale(1.06)" inkscape:groupmode="layer" inkscape:label="05 花びら・髪飾り">
+    <g id="floating-petals">
+      <path
+        id="petal-upper"
+        d="m 275.5 61.5 c 0.4 -0.9 2.4 1.1 3.7 1 11.8 2.7 17.5 12 15.3 20.2 -0.3 1.4 -3 -0.2 -3.5 -0.6 v 3.4 c -12 -0.5 -18.2 -9.8 -15.5 -24 z"
+        fill="#fad0cf" />
+      <path
+        id="petal-upper-right"
+        d="m 284.97 120 c -1.07 -11.2 6.83 -19.5 18.33 -19.5 v 4.9 l 4.47 -1.63 c 1.2 10.5 -8.57 21.63 -21.18 20.73 l 2.5 -4.7 z"
+        fill="#fad0cf" />
+      <path
+        id="petal-left"
+        d="m 10.88 152.37 c 6.47 -12.98 24.92 -15.27 31.72 -9.17 l -3 4.3 3.5 1.1 c -8.55 10.07 -19.9 9.94 -31.1 7.6 l 3.72 -3.78 z"
+        fill="#f2a8ac" />
+      <path
+        id="petal-left-small"
+        d="m 53.5 191.1 -3.07 1.47 c 3.47 4.99 14.43 7.43 19.69 3.79 l -2.62 -2.05 3.6 0.1 c -1 -7.9 -14.04 -10.82 -20.95 -4.78 z"
+        fill="#f2a8ac" />
+      <path
+        id="petal-lower-right"
+        d="m 261.3 226.2 c 11.82 -5.47 26.49 -5.4 30.45 3.37 l -5.05 1.03 3.4 4.5 c -10.42 4.5 -21.26 3.08 -28.8 -8.9 z"
+        fill="#fad0cf" />
+      <path id="petal-bottom" d="m 304 221.4 h 3 l -1.05 -2.72 c 10.1 -1.8 18.06 6.22 20.86 17.22 -8.36 2.08 -20.95 -2.81 -22.8 -14.5 z" fill="#fad0cf" />
+    </g>
+    <g id="right-cherry-blossom" fill="#f09fa1">
+      <path id="right-petal-top" d="m 635.8 195.5 c -11 -10.3 -8.2 -22.4 1.1 -30.4 l 2.7 3.8 2.9 -3.5 c 10.3 11.5 9 22.3 -3.4 30.9 l 0.9 -8.5 -2.2 0.5 z" />
+      <path id="right-petal-right" d="m 641.7 197.1 c 7 -10.3 18.1 -13.4 27.9 -5.7 l -3 2.8 4.1 2.4 c -6.5 9.5 -16.6 12.3 -29.2 5 l 8.7 -3.4 -0.5 -1 z" />
+      <path
+        id="right-petal-lower-right"
+        d="m 640.6 204.5 c 13.1 1.5 21.2 11.8 17.9 24.7 l -5 -2.4 0.2 4.3 c -14 -2.7 -17.2 -13.1 -16.8 -26 l 4.9 7.8 1.3 -0.6 z"
+      />
+      <path
+        id="right-petal-lower-left"
+        d="m 633.4 204.1 c 1.2 13.5 -3.9 22.5 -14.8 25.5 v -4.7 l -4.8 1.1 c -2.6 -12.5 5.6 -19.5 16.4 -23.2 l -3.4 6.5 1.8 0.7 z"
+      />
+      <path
+        id="right-petal-left"
+        d="m 630.6 198.3 c -12.6 6.7 -22.1 4.5 -26.2 -7.1 l 5.3 -0.5 -2.5 -3.5 c 11.9 -8.4 20 0.6 24.8 9.4 l -6.5 -2.5 -0.2 1.7 z"
+      />
+    </g>
+    <g id="hair-flower">
+      <path
+        id="hair-flower-outline"
+        d="m 230.4 87.1 c -0.3 -2.8 -1.5 -6.1 -4.3 -2.5 -3.3 3.8 -2.9 7.9 -2.3 11.6 -4.6 -3.5 -10.7 -3.7 -14.2 0.6 l
+          3.5 2.3 c -6.7 1.2 -1.9 7 8.7 8.1 -4.2 3.6 -7.3 9.4 -5.7 12.9 l 4.2 -1.3 -0.7 2.7 c 5.6 0.4 8.8 -4.6 11.1
+          -9.3 0.6 5.9 7.1 9.7 10.5 8 v -2.6 l 3.4 1.1 c -0.2 -6 -3.2 -10 -6.6 -12.6 6.8 0.9 11.7 -3.5 12.5 -7.1 l
+          -3.8 -0.9 2.7 -2.6 c -4.6 -2.7 -9.8 -1.9 -13.9 1.6 2.2 -4.9 2 -10.4 -1 -12.8 l -2.1 2.9 z"
+        fill="#feefeb" stroke="#d77f83" stroke-linejoin="round" stroke-width="2.6" />
+      <path
+        id="hair-flower-center"
+        d="m 231.2 98 1.3 3 3 -0.3 -1.7 2.4 1.2 3.3 -3 -1.4 -1.5 3.3 -0.6 -3.7 -3.1 0.9 2.1 -2.6 -1.3 -2.1 3 0.8 z"
+        fill="#f9c4c3" />
+    </g>
+  </g>
+  <g id="layer-06-foreground-flowers" inkscape:groupmode="layer" inkscape:label="06 前景の桜・ハイライト">
+    <path
+      id="foreground-blossom-left"
+      d="m 29.94 73.58 c -0.31 -2.07 0.82 -3.01 2.29 -4.15 -2.99 -1.03 -2.71 -3.63 -2.71 -3.63 l 0.83 -1.09 s 2.18
+        -1.76 4.39 1.02 c 0 0 0.19 -3.23 2.34 -4 l 0.54 1.02 0.8 -1.02 s 2.4 2.72 0.13 5.44 c 0 0 2.72 -1.57 4.96
+        0.74 l -0.8 0.83 0.96 0.42 s -0.1 2.43 -4.51 1.95 c 0 0 1.5 1.7 1.15 3.46 l -4.55 -0.03 s -0.48 -1.38
+        -0.26 -2.21 c -0.71 1.22 -1.46 1.84 -2.16 2.19 l -2.25 0.02 0.28 -1.06"
+      fill="#ffcbd6" />
+    <path
+      id="foreground-blossom-right"
+      d="m 67.06 71.57 c -1.75 -0.38 -1.75 -2.25 -2.22 -3.77 -1.77 2.54 -3.83 1.81 -3.83 1.81 l 0.25 -0.87 -0.77
+        0.54 s -1.04 -2.73 1.86 -3.66 c 0 0 -2.54 -1.13 -2.51 -3.09 l 0.99 -0.13 -0.58 -0.95 s 2.91 -1.1 4.41 1.55
+        c 0 0 -0.5 -2.06 0.25 -1.8 l 3.27 4.63 s 0.87 1.91 0.27 1.48 l 0.54 2.09 -0.66 1.81 -0.77 -0.55"
+      fill="#ffcbd6" />
+    <path id="foreground-blossom-highlight" transform="scale(0.26) scale(0.96) scale(1.06)" d="m 135.24 261.25 -2.73 -1.47 0.69 -1.16 2.63 1.4 0.48 -3.01 1.46 0.11 -0.45 2.99 3.36 0 -0.06 1.19 -3.19 0.06 2.11 2.44 -1.09 0.93 -2.18 -2.45 -2.26 2.12 -1.01 -0.92 z" fill="#fff" />
+  </g>
+  <g id="layer-07-character-linework" transform="scale(0.26) scale(0.96) scale(1.06)" inkscape:groupmode="layer" inkscape:label="07 人物・輪郭線">
+    <g id="character-linework" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+      <g stroke-width="3" id="hair-outline-group">
+        <path id="crown-tuft" d="m 138.7 107.6 c 12.6 -12.9 35.6 -55.4 16.4 -72.9 11 -1.3 20.8 5.6 22.5 15.1" />
+        <path id="crown-left" d="m 161.9 54.5 c -19.6 -1.6 -44.2 20.8 -53.3 36.6 -8.9 15.1 -26.3 23.6 -38.1 25.2 7.6 5.2 22 4.8 30.9 -2.5" />
+        <path id="crown-right" d="m 184.2 47.4 c 38.7 -5.3 70.5 19.6 80.6 58.8 3.6 14.5 6.9 25.8 15.8 29.3 -12.2 -0.3 -20.1 -13.3 -21.8 -22.7" />
+        <path
+          id="right-hair-tips"
+          d="m 268.21 130.25 c 2.3 14.01 9.79 21.56 20.49 23.86 -5.8 4.2 -18.6 1.6 -25.5 -3.9 1.1 13.8 7.1 28.4 15.3 35.1 -15.2 -1.2 -25.1 -13.5 -28.5 -27.6"
+        />
+        <path
+          id="right-hair-lower"
+          d="m 254.1 169 c 0.1 16.1 -9.4 30.5 -22.7 37 4.7 -8.3 6 -16.6 6.3 -29.9 -2.9 17.8 -11 28.2 -24.6 35 6.6 -9.9
+            7.7 -18.1 7.4 -27.1 -2.2 9.7 -12.6 15.4 -21.9 17.8 11.5 -10.4 13 -25.1 13.5 -42.4"
+        />
+        <path id="right-bang" d="m 204.1 123.8 c 3.8 18.6 5.9 32.9 -8.8 47.1 6.8 -1 12.3 -5.2 16.8 -11.5" />
+        <path id="right-inner-lock" d="m 229.6 119.7 c 2.5 17 -0.8 37.7 -9.2 49.4" />
+        <path id="bang-sweep" d="m 170.2 93.2 c -2.2 14.8 0.9 35.4 5.6 46.8 m -5.6 -46.8 c 3.6 20.9 17.9 38.7 35.3 46.5" />
+        <path id="left-hair-tips" d="m 101.4 113.8 c -11.2 13.2 -20.3 36 -12.8 52.2 -0.4 -12.7 7.4 -22.4 14.3 -34.1 -9.6 23.4 -4.5 40 7.7 49.2" />
+        <path id="left-side-lock" d="m 108.58 152.46 c 1 7.4 3.22 11.84 7.02 18.54" />
+        <path id="left-face-lock" d="m 125.8 143.1 c 2.2 16.6 7.3 27.8 19.6 36.8 -9.3 0.3 -16.4 -3.6 -22.4 -8.4" />
+        <path id="left-lower-hair" d="m 133 179.3 c -0.3 17.6 3 28.7 11.5 36 -13.4 -2.3 -23.8 -13.7 -25.6 -27.6" />
+        <path id="nape-inner" d="m 154.9 194.2 c 0.5 6.9 5.9 11.4 11.5 13.6" />
+        <path id="neck-left-lock" d="m 133.9 193 c 5.2 11.4 12.3 15.4 22.5 17.2 -3.5 -5.3 -2.7 -10.1 -1.5 -16" />
+        <path id="left-ear-line" d="m 138.4 134.3 c -2.9 -1.2 -5.7 1.2 -7.6 2.9 m 4.1 -2.1 -4.2 18.6" />
+      </g>
+      <path id="eye-left" d="m 142.3 169.6 c 6.6 1.7 11 -1.7 14 -4.5" stroke-width="4" />
+      <path id="eye-right" d="m 183.8 155.4 c 8.1 1.6 15.3 -0.7 20.6 -4.4" stroke-width="4" />
+      <g stroke-width="3" id="face-neck-and-kimono-lines">
+        <path id="brow-left" d="m 178.5 123.3 c 3.5 -3.7 8.2 -3.2 12.2 -1.3" />
+        <path id="brow-right" d="m 211.9 77.6 c 4.1 3.9 7 8.2 9.3 13.2" />
+        <path id="face-jaw" d="m 140.7 181.2 c 10.6 20.2 47.8 17.3 68.4 0.4" />
+        <path id="nose" d="m 173.8 179.6 2.6 -0.5" />
+        <path id="neck-right" d="m 209.31 198.22 c -1.42 5.63 0.39 10.68 3.39 14.19" />
+        <path id="neck-left" d="m 182.8 193.5 0.5 9 c -0.1 2.5 -0.6 4.4 -1.6 6.8" />
+        <path id="kimono-left-collar" d="m 181.1 209.6 c -3.6 -7.6 -9.3 -7.8 -15.9 -0.9 l 27.7 51.8" />
+        <path id="kimono-collar-inner" d="m 181.1 209.6 c 8.8 10.7 16 20.7 21.4 29.3" />
+        <path
+          id="kimono-right-collar"
+          d="m 181 281 c 16.4 -26.7 26.9 -48.8 33.5 -69.4 1.5 -4.5 3.6 -4.5 7 -1.4 l 5.4 5.6 c -5.9 23.5 -16.1 46.2 -26.9 65.2"
+        />
+        <path id="kimono-shoulder-right" d="m 226.4 215 c 9.3 8.6 19 9.9 26.2 23.9 7.1 13.5 13.44 35.08 16.34 41.68" />
+        <path id="kimono-shoulder-left" d="m 165.2 208.7 c -14.2 7.5 -30.2 9.9 -38.9 20.4 l -38.8 51.5 c -11.76 -4.13 -24.33 -9.68 -21.33 -27.08" />
+        <path
+          id="long-hair-outer"
+          d="m 101.3 174.1 c -8 20.5 -23.05 32.29 -42.04 40.29 -5.07 2.13 -10.79 5.83 -14.68 8.84 -16.18 12.54 -15.88 30.36 0.32 37.16 -9.6 -15.6 7.3 -30.2 27.4 -38.3"
+        />
+        <path id="long-hair-bottom" d="m 72.3 222.1 c -18 19.8 -24.7 49.4 0 58.4 -9.4 -6.9 -8.91 -17.12 -6.11 -27.02" />
+        <path id="long-hair-curl-outer" d="m 100.5 208.8 c -11.28 15.56 -33.79 49.89 1.29 51.94" />
+      </g>
+      <g stroke-linecap="round" stroke-linejoin="round" stroke-width="3" id="lower-hair-and-kimono-lines">
+        <path id="long-hair-inner-outline" d="m 122.23 198.54 c -12.47 23.39 -38.2 30.14 -39.42 49.89" />
+        <path id="kimono-left-lower-crease" d="m 130.89 265.95 c -0.62 3.88 -1.92 8 -3.32 14.63" />
+        <path id="kimono-right-lower-crease" d="m 243.41 257.79 c -0.06 9.22 -0.81 16.94 -1.8 22.18" />
+      </g>
+    </g>
+  </g>
+  <g id="layer-08-lettering" transform="scale(0.26) scale(0.96) scale(1.06)" inkscape:groupmode="layer" inkscape:label="08 文字・装飾線">
+    <g id="lettering-trace" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <g fill="none" stroke="#d56365" id="main-lettering-strokes">
+        <g id="letter-zhu" stroke-width="3.6">
+          <path id="zhu-upper-slant" d="m 330.5 117.45 c -2.95 8.1 -6.8 15.95 -11.05 21.85" />
+          <path id="zhu-upper-bar" d="m 326.2 128.6 h 43.45" stroke-width="3.25" />
+          <path id="zhu-central-bar" d="m 314.2 148.05 h 62.5" stroke-width="3.3" />
+          <path id="zhu-left-sweep" d="m 345.9 149.35 c -6.9 14.55 -18 25.6 -32.3 33.35" stroke-width="3.7" />
+          <path id="zhu-right-sweep" d="m 348.05 150.15 c 6.8 14.4 17.65 26.2 30.55 32.05" stroke-width="3.45" />
+          <path id="zhu-central-stem" d="m 347.05 112.3 v 75.95" stroke-width="3.9" />
+        </g>
+        <g id="letter-hua" stroke-width="3.45">
+          <path id="hua-upper-bar" d="m 388.2 122.4 h 59.4" />
+          <path id="hua-upper-stems" d="m 406.3 114 v 14.95 m 24.3 -15 v 15.15" stroke-width="3.7" />
+          <path id="hua-second-bar" d="m 391.9 134.9 h 52" stroke-width="3.2" />
+          <path id="hua-middle-bar" d="m 388.3 147.9 h 59.55" stroke-width="3.4" />
+          <path id="hua-inner-stems" d="m 400.6 139.15 v 22.35 m 17.1 -22.5 v 6.3 m 16.5 -6.1 v 22.3" stroke-width="3.6" />
+          <path id="hua-fourth-bar" d="m 392 161.65 h 51.55" stroke-width="3.25" />
+          <path id="hua-lower-bar" d="m 391.6 173.65 h 54.1" stroke-width="3.4" />
+          <path id="hua-lower-stem" d="m 417.7 152.55 v 35.75" stroke-width="3.7" />
+        </g>
+        <g id="letters-tts" stroke-width="3.6">
+          <path id="t-first-top" d="m 457.85 126.8 h 43.95" stroke-width="3.4" />
+          <path id="t-first-stem" d="m 478.85 133.3 v 53.15" />
+          <path id="t-second-top" d="m 512.1 126.8 h 44.1" stroke-width="3.4" />
+          <path id="t-second-stem" d="m 533.3 133.3 v 53.1" />
+          <path
+            id="s"
+            d="m 601 125.55 h -23.25 c -8.5 0 -12.9 5.85 -12.9 14.25 0 7.45 4.65 12.65 12.7 12.65 h 8.95 c 10.75 0 17.45
+              6.95 17.45 16.75 0 10.05 -6.55 17.45 -17.5 17.45 h -22.25"
+            stroke-width="3.8" />
+        </g>
+      </g>
+      <path
+        id="decorative-return-line"
+        d="m 258.8 200.5 h 167.2 a 9.65 9.65 0 0 1 0 19.3 h -40.9 a 8.9 8.9 0 0 0 0 17.8 h 229.5"
+        stroke="#dc7577" stroke-width="1.35" />
+    </g>
+  </g>
+</svg>

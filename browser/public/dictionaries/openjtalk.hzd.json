@@ -1,0 +1,24 @@
+{
+  "format": "HZD1",
+  "entries": 790298,
+  "surfaces": 678993,
+  "radix_nodes": 869598,
+  "edge_bytes": 2080517,
+  "grammar_groups": 706,
+  "accent_groups": 1198,
+  "shared_strings": 781006,
+  "string_bytes": 11268608,
+  "source_bytes": 103305451,
+  "runtime_bytes": 45920336,
+  "parts": [
+    {
+      "file": "openjtalk.hzd.gz.00",
+      "bytes": 9000000
+    },
+    {
+      "file": "openjtalk.hzd.gz.01",
+      "bytes": 1729780
+    }
+  ],
+  "asset_bytes": 10729780
+}

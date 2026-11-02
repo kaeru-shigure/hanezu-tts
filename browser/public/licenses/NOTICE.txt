@@ -1,0 +1,37 @@
+Hanezu Browser — third-party notices
+
+Generated frontend rules:
+  pyopenjtalk-plus e7713f2d6d91f392f595df5e8998ff2b62c3b6f5 (MIT)
+  Transcrypt 3.9.5 generated JavaScript helpers (Apache-2.0)
+  CJKVI variants e4f1da248c9737a243f9930b5dc497cef5d5ae16 (MIT)
+  Unihan readings (Unicode License v3)
+
+Native JavaScript modules:
+  OpenJTalk 80f8c72f41e6fda2f60efde199101f794be7aaab and MeCab (BSD)
+  Emscripten 4.0.23 generated runtime and C++ standard library
+  Sudachi.rs 5de0410b6edfd428fc510cc9763440772e9619d5 (Apache-2.0)
+  Sudachi modifications: static built-in plugins, no dictionary builder/dynamic
+  library loading, 32-bit-compatible hash seed, JavaScript-facing ABI.
+  Rust dependencies and their versions/licenses: rust-dependencies.json.
+  Individual dependency copyright notices: rust/.
+
+Data:
+  OpenJTalk/NAIST Japanese dictionary (see openjtalk-dictionary.txt)
+  HanezuTTS converts the pinned system dictionary to HZD1/HZP1: compressed
+  radix index and shared feature strings, retaining all entries and features.
+  SudachiDict core 20261015 (Apache-2.0)
+  e2k 0.7.0 ngram data (see e2k.txt)
+  tsukumijima/tsqyomi-models v6 (see tsqyomi.txt)
+  VOICEVOX/kanalizer-model v5 (see kanalizer.txt)
+
+JavaScript runtime dependencies:
+  Preact, Preact Signals, @huggingface/tokenizers.
+  Individual copyright notices: javascript/.
+
+Inference runtime:
+  hanezu-rt checkpoint v2 (L-010), supplied prebuilt WebAssembly modules
+  and JavaScript glue. No third-party Rust crates or wasm-bindgen.
+
+The original license texts are distributed beside this file and in the
+subdirectories listed above. Build-time translations do not include a
+Python interpreter. Model weights retain their respective upstream terms.

@@ -1,0 +1,176 @@
+{
+  "version": "654bbce9661b453c80bea4bf168fed2c",
+  "assets": [
+    {
+      "id": "openjtalk/system.hzd.gz:0",
+      "file": "openjtalk/system.hzd.gz",
+      "part": 0,
+      "label": "日本語の語彙・読み 1/2",
+      "group": "日本語辞書",
+      "url": "dictionaries/openjtalk.hzd.gz.00?v=18d823de8d534917b40ab8ec6053a7b4",
+      "bytes": 9000000
+    },
+    {
+      "id": "openjtalk/system.hzd.gz:1",
+      "file": "openjtalk/system.hzd.gz",
+      "part": 1,
+      "label": "日本語の語彙・読み 2/2",
+      "group": "日本語辞書",
+      "url": "dictionaries/openjtalk.hzd.gz.01?v=18d823de8d534917b40ab8ec6053a7b4",
+      "bytes": 1729780
+    },
+    {
+      "id": "openjtalk/unk.dic:0",
+      "file": "openjtalk/unk.dic",
+      "part": 0,
+      "label": "unk.dic",
+      "group": "日本語辞書",
+      "url": "https://cdn.jsdelivr.net/gh/tsukumijima/pyopenjtalk-plus@e7713f2d6d91f392f595df5e8998ff2b62c3b6f5/pyopenjtalk/dictionary/unk.dic",
+      "bytes": 5690
+    },
+    {
+      "id": "openjtalk/matrix.bin:0",
+      "file": "openjtalk/matrix.bin",
+      "part": 0,
+      "label": "matrix.bin",
+      "group": "日本語辞書",
+      "url": "https://cdn.jsdelivr.net/gh/tsukumijima/pyopenjtalk-plus@e7713f2d6d91f392f595df5e8998ff2b62c3b6f5/pyopenjtalk/dictionary/matrix.bin",
+      "bytes": 3792262
+    },
+    {
+      "id": "openjtalk/char.bin:0",
+      "file": "openjtalk/char.bin",
+      "part": 0,
+      "label": "char.bin",
+      "group": "日本語辞書",
+      "url": "https://cdn.jsdelivr.net/gh/tsukumijima/pyopenjtalk-plus@e7713f2d6d91f392f595df5e8998ff2b62c3b6f5/pyopenjtalk/dictionary/char.bin",
+      "bytes": 262496
+    },
+    {
+      "id": "unknown-kanji.json:0",
+      "file": "unknown-kanji.json",
+      "part": 0,
+      "label": "未知漢字の読み辞書",
+      "group": "日本語辞書",
+      "url": "dictionaries/unknown-kanji.json?v=18d823de8d534917b40ab8ec6053a7b4",
+      "bytes": 305509
+    },
+    {
+      "id": "unihan.json:0",
+      "file": "unihan.json",
+      "part": 0,
+      "label": "漢字の読み",
+      "group": "日本語辞書",
+      "url": "assets/data/unihan.json.bin?v=18d823de8d534917b40ab8ec6053a7b4",
+      "bytes": 797518
+    },
+    {
+      "id": "ngram.json:0",
+      "file": "ngram.json",
+      "part": 0,
+      "label": "英単語判定 1/2",
+      "group": "英語辞書",
+      "url": "assets/data/ngram.json.00.bin?v=18d823de8d534917b40ab8ec6053a7b4",
+      "bytes": 9000000
+    },
+    {
+      "id": "ngram.json:1",
+      "file": "ngram.json",
+      "part": 1,
+      "label": "英単語判定 2/2",
+      "group": "英語辞書",
+      "url": "assets/data/ngram.json.01.bin?v=18d823de8d534917b40ab8ec6053a7b4",
+      "bytes": 2163531
+    },
+    {
+      "id": "kanalizer-dataset.jsonl:0",
+      "file": "kanalizer-dataset.jsonl",
+      "part": 0,
+      "label": "英単語の読み辞書",
+      "group": "英語辞書",
+      "url": "https://huggingface.co/datasets/VOICEVOX/kanalizer-dataset/resolve/9920e8f5503e17a8b0647e0265e47923255df5dd/dataset/dataset.jsonl",
+      "bytes": 5570765
+    },
+    {
+      "id": "tsqyomi/model.onnx:0",
+      "file": "tsqyomi/model.onnx",
+      "part": 0,
+      "label": "tsqyomi モデル",
+      "group": "読み推定",
+      "url": "https://huggingface.co/tsukumijima/tsqyomi-models/resolve/917a89d2c93420d1c43213c1e0232b25f7a6aa5f/v6/model.onnx",
+      "bytes": 141194012
+    },
+    {
+      "id": "tsqyomi/tokenizer.json:0",
+      "file": "tsqyomi/tokenizer.json",
+      "part": 0,
+      "label": "tokenizer.json",
+      "group": "読み推定",
+      "url": "https://huggingface.co/tsukumijima/tsqyomi-models/resolve/917a89d2c93420d1c43213c1e0232b25f7a6aa5f/v6/tokenizer.json",
+      "bytes": 6718495
+    },
+    {
+      "id": "tsqyomi/metadata.json:0",
+      "file": "tsqyomi/metadata.json",
+      "part": 0,
+      "label": "metadata.json",
+      "group": "読み推定",
+      "url": "https://huggingface.co/tsukumijima/tsqyomi-models/resolve/917a89d2c93420d1c43213c1e0232b25f7a6aa5f/v6/metadata.json",
+      "bytes": 46404
+    },
+    {
+      "id": "kanalizer.safetensors:0",
+      "file": "kanalizer.safetensors",
+      "part": 0,
+      "label": "c2k.safetensors",
+      "group": "英語辞書",
+      "url": "https://huggingface.co/VOICEVOX/kanalizer-model/resolve/223ea6044503992673ea8d24cb9c39082dab7497/model/c2k.safetensors",
+      "bytes": 4449826
+    },
+    {
+      "id": "config.json:0",
+      "file": "config.json",
+      "part": 0,
+      "label": "合成設定",
+      "group": "音声モデル",
+      "url": "https://huggingface.co/kaeru-shigure/hanezu-tts/resolve/419fe1f98ee69e3af5db4bf74f4a65c1fefb65fa/config.json",
+      "bytes": 4485
+    },
+    {
+      "id": "weight.safetensors:0",
+      "file": "weight.safetensors",
+      "part": 0,
+      "label": "音声モデル",
+      "group": "音声モデル",
+      "url": "https://huggingface.co/kaeru-shigure/hanezu-tts/resolve/419fe1f98ee69e3af5db4bf74f4a65c1fefb65fa/weight.safetensors",
+      "bytes": 6964120
+    },
+    {
+      "id": "openjtalk-js.mjs:0",
+      "file": "openjtalk-js.mjs",
+      "part": 0,
+      "label": "形態素解析",
+      "group": "読み推定",
+      "url": "assets/data/openjtalk-js.mjs.bin?v=18d823de8d534917b40ab8ec6053a7b4",
+      "bytes": 909253
+    },
+    {
+      "id": "runtime/hanezu_rt.wasm:0",
+      "file": "runtime/hanezu_rt.wasm",
+      "part": 0,
+      "label": "音声推論ランタイム (SIMD)",
+      "group": "音声モデル",
+      "url": "runtime/hanezu_rt.wasm?v=b392318e4fc6afb0",
+      "bytes": 349644
+    },
+    {
+      "id": "runtime/hanezu_rt.relaxed.wasm:0",
+      "file": "runtime/hanezu_rt.relaxed.wasm",
+      "part": 0,
+      "label": "音声推論ランタイム (relaxed SIMD)",
+      "group": "音声モデル",
+      "url": "runtime/hanezu_rt.relaxed.wasm?v=56cab4984d85291e",
+      "bytes": 348280
+    }
+  ]
+}

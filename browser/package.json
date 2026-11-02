@@ -1,0 +1,27 @@
+{
+  "name": "hanezu-browser",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "rspack serve --mode development",
+    "build": "tsc --noEmit && rspack build --mode production",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\"",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@huggingface/tokenizers": "0.2.0",
+    "@preact/signals": "^2.3.2",
+    "preact": "^10.27.2",
+    "react-icons": "^5.7.0"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^1.7.0",
+    "@rspack/core": "^1.7.0",
+    "@rspack/dev-server": "^1.1.4",
+    "@types/node": "^24.0.0",
+    "prettier": "3.6.2",
+    "typescript": "^5.9.3"
+  },
+  "packageManager": "yarn@4.18.1"
+}
