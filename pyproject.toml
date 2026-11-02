@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hanezu-tts"
+version = "0.1.0"
+description = "朱華TTS: standalone inference-only compact Japanese TTS (PyTorch)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = [
+  "torch>=2.4",
+  "numpy>=1.24,<3",
+  "e2k>=0.7,<1",
+  "safetensors>=0.4,<1",
+  "soundfile>=0.12,<1",
+  "huggingface_hub>=0.24",
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.30,<1",
+  "pyopenjtalk-plus[tsqyomi,onnxruntime] @ git+https://github.com/tsukumijima/pyopenjtalk-plus.git@e7713f2d6d91f392f595df5e8998ff2b62c3b6f5",
+  "onnx>=1.17,<2",
+  "onnxruntime>=1.20,<2",
+]
+
+[project.scripts]
+hanezu-tts = "hanezu_tts.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"hanezu_tts" = ["web/index.html"]

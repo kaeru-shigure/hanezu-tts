@@ -1,0 +1,29 @@
+{
+  "format": "HZD1",
+  "entries": 790298,
+  "surfaces": 678993,
+  "radix_nodes": 869598,
+  "edge_bytes": 2080517,
+  "grammar_groups": 706,
+  "accent_groups": 1198,
+  "shared_strings": 781006,
+  "string_bytes": 11268608,
+  "source_bytes": 103305451,
+  "runtime_bytes": 45920336,
+  "source_sha256": "23287ce5d518164b8b97683b1d9534df095556e446f3470a6c52bd737be74527",
+  "runtime_sha256": "e25e4e858a5e7944beda95fc5779c599a1dca616b1638d5e2f2410c9e17cfb5a",
+  "parts": [
+    {
+      "file": "openjtalk.hzd.gz.00",
+      "bytes": 9000000,
+      "sha256": "85f4efd7096c95019a7a42193db6c2a4e20e204faae5421589476a9c4801adc2"
+    },
+    {
+      "file": "openjtalk.hzd.gz.01",
+      "bytes": 1729780,
+      "sha256": "a5a46e66343742fa87d8a5e1e193b1d13bd3056067e51ba043b58cc7bd0d372f"
+    }
+  ],
+  "asset_bytes": 10729780,
+  "asset_sha256": "2e9fda5a0b716ff66a39242f1425d7ed358f9600e043d99a7a68988e32405488"
+}

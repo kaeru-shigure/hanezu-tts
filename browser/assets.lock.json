@@ -1,0 +1,87 @@
+{
+  "openjtalk/sys.dic": {
+    "bytes": 103305451,
+    "sha256": "23287ce5d518164b8b97683b1d9534df095556e446f3470a6c52bd737be74527",
+    "source": "https://cdn.jsdelivr.net/gh/tsukumijima/pyopenjtalk-plus@e7713f2d6d91f392f595df5e8998ff2b62c3b6f5/pyopenjtalk/dictionary/sys.dic"
+  },
+  "openjtalk/system.hzd.gz": {
+    "bytes": 10729780,
+    "sha256": "2e9fda5a0b716ff66a39242f1425d7ed358f9600e043d99a7a68988e32405488",
+    "source": "tools/compact_dictionary.py HZP1: 23287ce5d518164b8b97683b1d9534df095556e446f3470a6c52bd737be74527"
+  },
+  "openjtalk/unk.dic": {
+    "bytes": 5690,
+    "sha256": "f8ce58a6b49795680d68c4f2c5801296d4d3b047b4b7708baa1610f7e2d91f1f",
+    "source": "https://cdn.jsdelivr.net/gh/tsukumijima/pyopenjtalk-plus@e7713f2d6d91f392f595df5e8998ff2b62c3b6f5/pyopenjtalk/dictionary/unk.dic"
+  },
+  "openjtalk/matrix.bin": {
+    "bytes": 3792262,
+    "sha256": "62fd16b4f64c851d5dc352ef0d5740c5fc83ddc7c203b2b0b1fc5271969a14ce",
+    "source": "https://cdn.jsdelivr.net/gh/tsukumijima/pyopenjtalk-plus@e7713f2d6d91f392f595df5e8998ff2b62c3b6f5/pyopenjtalk/dictionary/matrix.bin"
+  },
+  "openjtalk/char.bin": {
+    "bytes": 262496,
+    "sha256": "1a3ade6a84c0e6b1cfbd04f3803f32aefe37139724359f2a6cc72abf68099b06",
+    "source": "https://cdn.jsdelivr.net/gh/tsukumijima/pyopenjtalk-plus@e7713f2d6d91f392f595df5e8998ff2b62c3b6f5/pyopenjtalk/dictionary/char.bin"
+  },
+  "unknown-kanji.json": {
+    "bytes": 305509,
+    "sha256": "b494edbcb59a00c97e62b68b24e4536fc35dbb333fd8a98029ffb5e871ebea56",
+    "source": "tools/prepare_unknown_dictionary.py: sudachidict-core==20261015 minus readable OpenJTalk surfaces"
+  },
+  "unihan.json": {
+    "bytes": 797518,
+    "sha256": "45c3bc0724996993b1bfff51aaa6fd832a75fdba7bfbac4b132d5adb050fd088",
+    "source": "pyopenjtalk-plus@e7713f2d6d91f392f595df5e8998ff2b62c3b6f5/_unihan_readings_map.py"
+  },
+  "ngram.json": {
+    "bytes": 11163531,
+    "sha256": "0eede447e5ec3bccb3a3cd88ad23c381a970e244d0650aa529312b4554baf2f0",
+    "source": "e2k==0.7.0/models/ngram.json.zip"
+  },
+  "kanalizer-dataset.jsonl": {
+    "bytes": 5570765,
+    "sha256": "554dcec40d62afa1a482174c62ba503b1c9b875278f307d91afa4c1a4770dbeb",
+    "source": "https://huggingface.co/datasets/VOICEVOX/kanalizer-dataset/resolve/9920e8f5503e17a8b0647e0265e47923255df5dd/dataset/dataset.jsonl"
+  },
+  "tsqyomi/model.onnx": {
+    "bytes": 141194012,
+    "sha256": "602e630d3368fe905ace80022f235b21ca1461fcad28dfe40d073a19cfade22f",
+    "source": "https://huggingface.co/tsukumijima/tsqyomi-models/resolve/917a89d2c93420d1c43213c1e0232b25f7a6aa5f/v6/model.onnx"
+  },
+  "tsqyomi/tokenizer.json": {
+    "bytes": 6718495,
+    "sha256": "6a0734cf21c802169defaffe719bc2ef12bb9d0be37e54b61ed27aa89394723d",
+    "source": "https://huggingface.co/tsukumijima/tsqyomi-models/resolve/917a89d2c93420d1c43213c1e0232b25f7a6aa5f/v6/tokenizer.json"
+  },
+  "tsqyomi/metadata.json": {
+    "bytes": 46404,
+    "sha256": "e167967ab2f43f5c62ab27b7e8e189cd6dace588247be31e47eec8613b08378e",
+    "source": "https://huggingface.co/tsukumijima/tsqyomi-models/resolve/917a89d2c93420d1c43213c1e0232b25f7a6aa5f/v6/metadata.json"
+  },
+  "kanalizer.safetensors": {
+    "bytes": 4449826,
+    "sha256": "b0a86e9c0b0df54c33d8ed7e78540df1f874f5eabaedc168b53b4b1ec5890513",
+    "source": "https://huggingface.co/VOICEVOX/kanalizer-model/resolve/223ea6044503992673ea8d24cb9c39082dab7497/model/c2k.safetensors"
+  },
+  "config.json": {
+    "bytes": 4740,
+    "sha256": "6d496929eeba25066b3d1c53a0ba8cb13d48e553253ebba0c91bf2c4094a5a30",
+    "source": "https://huggingface.co/kaeru-shigure/hanezu-tts/resolve/main/config.json"
+  },
+  "weight.safetensors": {
+    "bytes": 6824601,
+    "sha256": "0f3d665399daa3e659c03aeb197ce3e4d576a270312b13656a6b3c7ce06a25ee",
+    "source": "https://huggingface.co/kaeru-shigure/hanezu-tts/resolve/main/weight.safetensors"
+  },
+  "openjtalk-js.mjs": {
+    "bytes": 909253,
+    "sha256": "e8c5e26a9aa67690e602635b0baa8ffdd42650ec8da593a0e336033bab9da11e",
+    "source": "repository"
+  },
+  "onnx/matonnxpack.bin": {
+    "bytes": 425750,
+    "sha256": "90827689b9fa40c69174efc3a0de0930adeb5a09780ffe6129f51087955233b3",
+    "source": "tools/prepare_onnx.py MaterialOnnxPack-v1"
+  }
+}

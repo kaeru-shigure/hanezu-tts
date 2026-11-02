@@ -1,0 +1,3 @@
+BasedOnStyle: LLVM
+# OpenJTalk's C headers depend on NJD/JPCommon being declared first.
+SortIncludes: Never

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.yarn/install-state.gz
+# public/assets and public/licenses are required, versioned site content.
+# Only the JS core is deployed; unused native/WASM build outputs stay local.
+public/runtime/*
+!public/runtime/.gitkeep
+!public/runtime/*-js.mjs
+__pycache__/
+/tools/
